@@ -1,36 +1,43 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-#name {
-  font-family: 'Roboto Mono', monospace;
+.top {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.text {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#name {
 }
 
 #menu {
-  font-family: 'Roboto Mono', monospace;
-  display: flex;
-  justify-content: flex-end;
 }
 
 #technology {
-  font-family: 'Roboto Mono', monospace;
   display: none;
 }
 
 #works {
-  font-family: 'Roboto Mono', monospace;
   display: none;
 }
 
 #group {
-  font-family: 'Roboto Mono', monospace;
-  display: flex;
-  justify-content: flex-start;
 }
 
 #date {
-  font-family: 'Roboto Mono', monospace;
-  display: flex;
-  justify-content: flex-end;
 }
