@@ -82,3 +82,25 @@ iframe {
   align-items: center;
   justify-content: center;
 }
+
+.works {
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* ipad mini 9.7" portrait */
+/* @media screen and (max-width: 768px) {
+  .text {
+    font-size: 7vw;
+  }
+} */
+
+/* iphone se */
+/* @media screen and (max-width: 320px) {
+  .text {
+    font-size: 7vw;
+  }
+} */
