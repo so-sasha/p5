@@ -22,11 +22,52 @@ body {
   align-items: flex-end;
 }
 
-.text {
+.menu {
   width: 100%;
   position: absolute;
   z-index: 1;
+}
+
+#technology {
+  display: none;
+}
+
+#works {
+  display: none;
+}
+
+.text {
   font-family: 'Roboto Mono', monospace;
+}
+
+.paragraph {
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  grid-template-rows: 25vh 25vh 25vh 25vh;
+  column-gap: 10vw;
+  row-gap: 10vh;
+  align-items: center;
+}
+
+.libraries {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#anime_js {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.anime_js {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
 
 iframe {
