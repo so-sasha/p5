@@ -1,6 +1,12 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+body {
+  background-color: #a8c5c7;
+  color: #3c6988;
+  overflow: hidden;
+}
+
 .top {
   display: flex;
   flex-direction: row;
@@ -9,6 +15,7 @@
 }
 
 .bottom {
+  transform: translateY(95vh);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,22 +29,15 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-#name {
+iframe {
+  width: 600px;
+  height: 600px;
+  transform: translateY(10vh);
 }
 
-#menu {
-}
-
-#technology {
-  display: none;
-}
-
-#works {
-  display: none;
-}
-
-#group {
-}
-
-#date {
+.animation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
