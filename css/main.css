@@ -19,10 +19,6 @@ iframe {
   /* display: flex; */
 }
 
-/* #menu {
-  display: none;
-} */
-
 #technology {
   display: none;
 }
@@ -33,6 +29,8 @@ iframe {
 
 .menu {
   display: none;
+  position: absolute;
+  left: 90vw;
 }
 
 
@@ -53,7 +51,6 @@ iframe {
 
 .navigation {
   width: 100%;
-  /* position: absolute; */
   z-index: 1;
 }
 
@@ -122,10 +119,6 @@ iframe {
     font-size: 3vw;
   }
 
-  /* #menu {
-    display: flex;
-  } */
-
   .menu {
     display: flex;
     flex-direction: row-reverse;
@@ -145,10 +138,6 @@ iframe {
   .text_antique {
     font-size: 3vw;
   }
-
-  /* #menu {
-    display: flex;
-  } */
 
   .menu {
     display: flex;
@@ -170,10 +159,6 @@ iframe {
     font-size: 3vw;
   }
 
-  /* #menu {
-    display: flex;
-  } */
-
   .menu {
     display: flex;
     flex-direction: row-reverse;
@@ -194,10 +179,6 @@ iframe {
     font-size: 3vw;
   }
 
-  /* #menu {
-    display: flex;
-  } */
-
   .menu {
     display: flex;
     flex-direction: row-reverse;
@@ -217,10 +198,6 @@ iframe {
   .text_antique {
     font-size: 3vw;
   }
-
-  /* #menu {
-    display: flex;
-  } */
 
   .menu {
     display: flex;
