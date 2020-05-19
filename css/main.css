@@ -1,11 +1,40 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
   background-color: #a8c5c7;
   color: #3c6988;
   overflow: hidden;
 }
+
+iframe {
+  width: 600px;
+  height: 600px;
+  transform: translateY(10vh);
+}
+
+#burger {
+  width: 10vw;
+  /* display: flex; */
+}
+
+/* #menu {
+  display: none;
+} */
+
+#technology {
+  display: none;
+}
+
+#works {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
 
 .top {
   display: flex;
@@ -22,22 +51,19 @@ body {
   align-items: flex-end;
 }
 
-.menu {
+.navigation {
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
 }
 
-#technology {
-  display: none;
+.text_antique {
+  font-family: 'Prata', serif;
+  font-size: 5vw;
 }
 
-#works {
-  display: none;
-}
-
-.text {
-  font-family: 'Roboto Mono', monospace;
+.text_grotesque {
+  font-family: 'Rubik', sans-serif;
 }
 
 .paragraph {
@@ -70,12 +96,6 @@ body {
   grid-row-end: 3;
 }
 
-iframe {
-  width: 600px;
-  height: 600px;
-  transform: translateY(10vh);
-}
-
 .animation {
   display: flex;
   flex-direction: row;
@@ -91,16 +111,186 @@ iframe {
   justify-content: space-around;
 }
 
-/* ipad mini 9.7" portrait */
-/* @media screen and (max-width: 768px) {
-  .text {
-    font-size: 7vw;
-  }
-} */
+/* imac 21.6 */
+@media screen and (max-width: 1920px) {
 
-/* iphone se */
-/* @media screen and (max-width: 320px) {
-  .text {
+  #burger {
+    display: none;
+  }
+
+  .text_antique {
+    font-size: 3vw;
+  }
+
+  /* #menu {
+    display: flex;
+  } */
+
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
+
+/* macbook pro 15 custom */
+@media screen and (max-width: 1680px) {
+
+  #burger {
+    display: none;
+  }
+
+  .text_antique {
+    font-size: 3vw;
+  }
+
+  /* #menu {
+    display: flex;
+  } */
+
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
+
+/* macbook pro 15 */
+@media screen and (max-width: 1440px) {
+
+  #burger {
+    display: none;
+  }
+
+  .text_antique {
+    font-size: 3vw;
+  }
+
+  /* #menu {
+    display: flex;
+  } */
+
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
+
+/* macbook air */
+@media screen and (max-width: 1366px) {
+
+  #burger {
+    display: none;
+  }
+
+  .text_antique {
+    font-size: 3vw;
+  }
+
+  /* #menu {
+    display: flex;
+  } */
+
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
+
+/* macbook pro 13 */
+@media screen and (max-width: 1280px) {
+
+  #burger {
+    display: none;
+  }
+
+  .text_antique {
+    font-size: 3vw;
+  }
+
+  /* #menu {
+    display: flex;
+  } */
+
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}
+
+/* ipad mini 9.7" landscape */
+@media screen and (max-width: 1024px) {
+
+  #burger {
+    display: flex;
+  }
+
+  .text_antique {
+    font-size: 3vw;
+  }
+
+  #menu {
+    display: none;
+  }
+
+}
+
+/* ipad mini 9.7" portrait */
+@media screen and (max-width: 768px) {
+
+  .text_antique {
     font-size: 7vw;
   }
-} */
+
+  #burger {
+    display: flex;
+  }
+
+  #menu {
+    display: none;
+  }
+
+}
+
+/* iphone 8 plus */
+@media screen and (max-width: 414px) {
+
+  .text_antique {
+    font-size: 7vw;
+  }
+
+  #burger {
+    display: flex;
+  }
+
+  #menu {
+    display: none;
+  }
+
+}
+
+/* iphone xs */
+@media screen and (max-width: 375px) {
+
+  #burger {
+    display: flex;
+  }
+
+  #menu {
+    display: none;
+  }
+
+}
