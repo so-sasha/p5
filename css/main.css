@@ -14,6 +14,24 @@ iframe {
   transform: translateY(10vh);
 }
 
+a {
+  color: #E8D7D9;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: overline;
+  color: #D37356;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+#menu {
+  color: #E8D7D9;
+}
+
 #burger {
   width: 10vw;
 }
@@ -55,11 +73,12 @@ iframe {
 
 .text_antique {
   font-family: 'Prata', serif;
-  font-size: 7vw;
+  font-size: 3vw;
 }
 
 .text_grotesque {
   font-family: 'Rubik', sans-serif;
+  font-size: 2vw;
 }
 
 .paragraph {
@@ -118,7 +137,7 @@ iframe {
     display: none;
   }
 
-  .text_antique {
+  #text_antique div {
     font-size: 5vw;
   }
 
@@ -127,7 +146,7 @@ iframe {
 /* iphone 8 plus */
 @media screen and (max-width: 414px) {
 
-  .text_antique {
+  #text_antique {
     font-size: 7vw;
   }
 
@@ -144,7 +163,7 @@ iframe {
 /* ipad mini 9.7" portrait */
 @media screen and (max-width: 768px) {
 
-  .text_antique {
+  #text_antique {
     font-size: 7vw;
   }
 
@@ -165,7 +184,7 @@ iframe {
     display: flex;
   }
 
-  .text_antique {
+  #text_antique {
     font-size: 3vw;
   }
 
@@ -182,7 +201,7 @@ iframe {
     display: none;
   }
 
-  .text_antique {
+  #text_antique {
     font-size: 3vw;
   }
 
@@ -202,7 +221,7 @@ iframe {
     display: none;
   }
 
-  .text_antique {
+  #text_antique {
     font-size: 3vw;
   }
 
@@ -222,7 +241,7 @@ iframe {
     display: none;
   }
 
-  .text_antique {
+  #text_antique {
     font-size: 3vw;
   }
 
@@ -242,7 +261,7 @@ iframe {
     display: none;
   }
 
-  .text_antique {
+  #text_antique {
     font-size: 3vw;
   }
 
@@ -263,7 +282,7 @@ iframe {
     display: none;
   }
 
-  .text_antique {
+  #text_antique {
     font-size: 3vw;
   }
 
