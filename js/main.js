@@ -4,6 +4,10 @@ document.getElementById('menu').onclick = e => {
   document.getElementById('works').style.display = 'block';
 }
 
+document.getElementById('technology').onclick = e => {
+  e.target.style.display = 'underlined';
+}
+
 document.getElementById('burger').onclick = e => {
   e.target.style.display = 'none';
   document.getElementById('technology').style.display = 'block';
