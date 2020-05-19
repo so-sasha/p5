@@ -9,3 +9,11 @@ document.getElementById('burger').onclick = e => {
   document.getElementById('technology').style.display = 'block';
   document.getElementById('works').style.display = 'block';
 }
+
+// let myCanvas = createCanvas(windowWidth, windowHeight);
+// // прикрепляем канвас в заранее созданный элемент
+// myCanvas.parent("canvas");
+//
+// function windowResized() {
+// resizeCanvas(windowWidth, windowHeight);
+// }

@@ -16,7 +16,6 @@ iframe {
 
 #burger {
   width: 10vw;
-  /* display: flex; */
 }
 
 #technology {
@@ -56,7 +55,7 @@ iframe {
 
 .text_antique {
   font-family: 'Prata', serif;
-  font-size: 5vw;
+  font-size: 7vw;
 }
 
 .text_grotesque {
@@ -108,48 +107,76 @@ iframe {
   justify-content: space-around;
 }
 
-/* imac 21.6 */
-@media screen and (max-width: 1920px) {
+/* iphone xs */
+@media screen and (max-width: 375px) {
 
   #burger {
+    display: flex;
+  }
+
+  #menu {
     display: none;
+  }
+
+  .text_antique {
+    font-size: 5vw;
+  }
+
+}
+
+/* iphone 8 plus */
+@media screen and (max-width: 414px) {
+
+  .text_antique {
+    font-size: 7vw;
+  }
+
+  #burger {
+    display: flex;
+  }
+
+  #menu {
+    display: none;
+  }
+
+}
+
+/* ipad mini 9.7" portrait */
+@media screen and (max-width: 768px) {
+
+  .text_antique {
+    font-size: 7vw;
+  }
+
+  #burger {
+    display: flex;
+  }
+
+  #menu {
+    display: none;
+  }
+
+}
+
+/* ipad mini 9.7" landscape */
+@media screen and (max-width: 1024px) {
+
+  #burger {
+    display: flex;
   }
 
   .text_antique {
     font-size: 3vw;
   }
 
-  .menu {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-}
-
-/* macbook pro 15 custom */
-@media screen and (max-width: 1680px) {
-
-  #burger {
+  #menu {
     display: none;
   }
 
-  .text_antique {
-    font-size: 3vw;
-  }
-
-  .menu {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
 }
 
-/* macbook pro 15 */
-@media screen and (max-width: 1440px) {
+/* macbook pro 13 */
+@media screen and (max-width: 1280px) {
 
   #burger {
     display: none;
@@ -188,8 +215,8 @@ iframe {
 
 }
 
-/* macbook pro 13 */
-@media screen and (max-width: 1280px) {
+/* macbook pro 15 */
+@media screen and (max-width: 1440px) {
 
   #burger {
     display: none;
@@ -208,66 +235,43 @@ iframe {
 
 }
 
-/* ipad mini 9.7" landscape */
-@media screen and (max-width: 1024px) {
+/* macbook pro 15 custom */
+@media screen and (max-width: 1680px) {
 
   #burger {
-    display: flex;
+    display: none;
   }
 
   .text_antique {
     font-size: 3vw;
   }
 
-  #menu {
-    display: none;
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
   }
 
 }
 
-/* ipad mini 9.7" portrait */
-@media screen and (max-width: 768px) {
+
+/* imac 21.6 */
+@media screen and (max-width: 1920px) {
+
+  #burger {
+    display: none;
+  }
 
   .text_antique {
-    font-size: 7vw;
+    font-size: 3vw;
   }
 
-  #burger {
+  .menu {
     display: flex;
-  }
-
-  #menu {
-    display: none;
-  }
-
-}
-
-/* iphone 8 plus */
-@media screen and (max-width: 414px) {
-
-  .text_antique {
-    font-size: 7vw;
-  }
-
-  #burger {
-    display: flex;
-  }
-
-  #menu {
-    display: none;
-  }
-
-}
-
-/* iphone xs */
-@media screen and (max-width: 375px) {
-
-  #burger {
-    display: flex;
-  }
-
-  #menu {
-    display: none;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
   }
 
 }
